@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thank You</title>
+
+<style type="text/css">
+    .thankyou{width: 100%; height: 100%; background-color: rgba(0,0,0,0.75)}
+    .thank{display: block; top:50%; left:50%; transform: translate(-50%, -50%); position: fixed; background-color: white; padding: 5%; z-index: 99}
+    .thank-text{font-size: 3em; color:#1E5803; text-align: center}
+    .thank-anim{animation-name: example; animation-duration: 2s;}
+    .thank-img{width: 80px; margin-left: 30%}
+    @keyframes example {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    @media screen and (max-width:751px){
+    .thank-text{font-size: 1.5em; color:#1E5803; text-align: center}
+    .thank-img{width: 60px; margin-left: 30%}
+    }
+
+</style>
+
+</head>
+
+<body>
+<div class="thankyou">
+	<div class="thank" id="thankyou">
+		<div class="thank-text align-content-center">Thank You!</div>
+		<div class="thank-anim"><img src="assets/icon/success.svg" alt="Sucess Image" class="thank-img"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	setTimeout(function(){
+		let url = "https://www.m3mprojects.net.in/m3m-jewel/";
+      	window.location.href = url;
+	}, 3000);
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://www.m3mprojects.net.in/sitemap.xml

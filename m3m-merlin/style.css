@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.title {
+  
+    text-transform: uppercase;
+}
+div#gallery.clr-1{
+    background-color: #f7f7f7;
+}
+div#price {
+    width: 100%;
+    padding: 20px 50px;
+  
+}
+div#price table {
+    width: 100%;
+    padding: 20px;
+    border-spacing: 1px;
+    border-collapse: separate;
+    margin: 10px auto;
+    font-size: 1em;
+  
+}
+div#price table td {
+    text-align: center;
+    padding: 10px 0;
+    border: none ;
+}
+.border-1 {
+    border: 1px solid #dee2e6;
+}
+div#price .border-1 {
+    border-left: 1px solid gainsboro ;
+    border-top: 1px solid gainsboro ;
+
+}
+
+div#price td:last-child {
+   
+    border-right: 1px solid gainsboro ;
+
+}
+td.border-1.border-1-secondary.last {
+    border-bottom: 1px solid gainsboro !important;
+}
+div#price ul {
+    margin-left: 20px;
+}
+#lg-counter {
+    display: none !important;
+}
+.plan img {
+    width: 100%;
+    height: 340px !important;
+    display: block;
+    transition: 1s ease-in-out;
+}
+
+@media screen and (max-width : 992px){
+    div#price {
+        width: 100%;
+        padding: 20px 10px;
+      
+    }
+    .price-content{
+        overflow: scroll;
+    }
+    div#price table{
+        padding: 0%;
+    }
+}
